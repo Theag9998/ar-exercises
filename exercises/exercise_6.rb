@@ -15,5 +15,6 @@ puts "----------"
 @store1.employees.create(first_name: "Hermione", last_name: "Granger", hourly_rate: 100)
 @store1.employees.create(first_name: "Sirius", last_name: "Black", hourly_rate: 150)
 @store2.employees.create(first_name: "Draco", last_name: "Malfoy", hourly_rate: 70)
-@store2.employees.create(first_name: "Lucious", last_name: "Malfoy", hourly_rate: 200)
-@store2.employees.create(first_name: "Severus", last_name: "Snape", hourly_rate: 250)
+@store2.employees.create(first_name: "Lucious", last_name: "Malfoy", hourly_rate: 180)
+@store2.employees.create(first_name: "Severus", last_name: "Snape", hourly_rate: 190)
+puts @store1.employees.inspect
